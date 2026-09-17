@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Интернет-магазин Чайным бум</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="product-section">
+        <div class="container">
+          <div class="product-section__content">
+            <div class="product-card pcard">
+              <h1 class="pcard__name">Ананасовый улун</h1>
+              <div class="pcard__content">
+                <button type="button" class="pcard__favBtn">
+                  <svg
+                    viewBox="0 0 18 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.1748 1.7002C17.7214 3.24684 17.7807 5.73557 16.3093 7.35403L8.93699 15.4629L1.56562 7.354C0.0942937 5.73554 0.153548 3.24679 1.70019 1.70015C3.42711 -0.0267712 6.27122 0.131031 7.79687 2.03809L8.9375 3.46335L10.0771 2.03793C11.6028 0.130869 14.4479 -0.0267161 16.1748 1.7002Z"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+                <a
+                  href="https://media.teaboom.ru/images/e4bb1618-fb80-41e2-8758-86f884ce095d.jpg"
+                  data-lightbox="product-image"
+                  data-title="Ананасовый улун"
+                  class="pcard__img"
+                  ><img
+                    src="/img/pineapple.jpg"
+                    alt="Ананасовый улун"
+                    title="Ананасовый улун"
+                /></a>
+                <div class="pcard__inner">
+                  <p class="pcard__category">
+                    Категория: Ароматизированный улун
+                  </p>
+
+                  <div class="pcard__options">
+                    <label class="option">
+                      <input
+                        class="option__input"
+                        type="radio"
+                        name="weight"
+                        value="01306"
+                        checked
+                      />
+
+                      <span class="option__content">
+                        <span class="option__weight">100 г</span>
+                        <span class="option__article">арт. 01306</span>
+                      </span>
+                    </label>
+
+                    <label class="option">
+                      <input
+                        class="option__input"
+                        type="radio"
+                        name="weight"
+                        value="01307"
+                      />
+
+                      <span class="option__content">
+                        <span class="option__weight">500 г</span>
+                        <span class="option__article">арт. 01307</span>
+                      </span>
+                    </label>
+
+                    <label class="option">
+                      <input
+                        class="option__input"
+                        type="radio"
+                        name="weight"
+                        value="01308"
+                      />
+
+                      <span class="option__content">
+                        <span class="option__weight">1000 г</span>
+                        <span class="option__article">арт. 01308</span>
+                      </span>
+                    </label>
+
+                    <label class="option">
+                      <input
+                        class="option__input"
+                        type="radio"
+                        name="weight"
+                        value="01309"
+                      />
+
+                      <span class="option__content">
+                        <span class="option__weight">5000 г</span>
+                        <span class="option__article">арт. 01309</span>
+                      </span>
+                    </label>
+                  </div>
+
+                  <p class="pcard__prices prices"></p>
+
+                  <button class="pcard__cart" type="button">
+                    <svg
+                      class="pcard__cart-icon"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M3 4h2l2.2 9.2a2 2 0 0 0 2 1.5h7.9a2 2 0 0 0 1.9-1.4L21 7H7"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle cx="10" cy="19" r="1.3" fill="currentColor" />
+                      <circle cx="18" cy="19" r="1.3" fill="currentColor" />
+                    </svg>
+
+                    <span>В корзину</span>
+                  </button>
+                </div>
+              </div>
+              <div class="pcard__description">
+                <h2 class="pcard__description-title">Краткое описание</h2>
+
+                <p class="pcard__description-text">
+                  Светлый Фуцзяньский улун с ароматом ананаса. В сухом виде —
+                  крупный лист изумрудного цвета, напоминающий Те Гуань Инь.
+                  Настой прозрачный, светло-янтарный, со свежими нотами зелени и
+                  ярким ананасовым акцентом. Состав: китайский бирюзовый чай,
+                  цукаты, натуральные ароматические масла.
+                </p>
+              </div>
+            </div>
+            <ul class="sidebar"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
